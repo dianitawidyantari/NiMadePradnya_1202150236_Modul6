@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "984143424748",
+    "firebase_url": "https://nimadepradnya1202150236modul6.firebaseio.com",
+    "project_id": "nimadepradnya1202150236modul6",
+    "storage_bucket": "nimadepradnya1202150236modul6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984143424748:android:9a2181ca5a0b9a34",
+        "android_client_info": {
+          "package_name": "com.example.widya.nimadepradnya_1202150236_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984143424748-0caldii0ts1kaa5ode2reanlqlhofgm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.widya.nimadepradnya_1202150236_modul6",
+            "certificate_hash": "443146a729d5a71e74a21f23006d34ae8b003cc0"
+          }
+        },
+        {
+          "client_id": "984143424748-vv81l3f58fhl14h4rg143nu5nd1kc08e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhIIH9q8hw7tlFCjWlv80gvZhqXS2HvP0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984143424748-vv81l3f58fhl14h4rg143nu5nd1kc08e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

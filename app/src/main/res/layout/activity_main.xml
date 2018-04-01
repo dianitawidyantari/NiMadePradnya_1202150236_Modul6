@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/actlogin"
+    android:orientation="vertical"
+    tools:context="com.example.widya.nimadepradnya_1202150236_modul6.MainActivity">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/kameranew"
+            android:layout_marginBottom="50dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:hint="Masukkan email anda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginRight="27dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:hint="Masukkan password anda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginRight="27dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="login"
+                android:text="Login"
+                android:layout_marginLeft="27dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="daftar"
+                android:text="Daftar"
+                android:layout_marginRight="27dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
